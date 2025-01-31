@@ -4,24 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5c3c9b-4814-45c3-9cfb-02dbbd843244" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/computer_club.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings/book_computer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings/computer_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings/forms.py" afterDir="false" />
+    <list default="true" id="3d5c3c9b-4814-45c3-9cfb-02dbbd843244" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/bookings/templates/bookings/computer_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings/templates/reqistration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings/templates/reqistration/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings/templates/reqistration/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings/book_computer.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookings/templates/bookings/book_computer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings/computer_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookings/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer_club/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/computer_club/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer_club/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/computer_club/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "acewol"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/acewol/computer_club.git",
+    "accountId": "0891924c-b1bd-4bbe-977e-92df8ca9d763"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -35,9 +59,11 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.computer_club.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -47,6 +73,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Evstigneev.AS\PycharmProjects\computer_club\bookings\templates\bookings" />
+      <recent name="C:\Users\Evstigneev.AS\PycharmProjects\computer_club\bookings\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="computer_club" type="Python.DjangoServer" factoryName="Django server">
       <module name="computer_club" />
@@ -55,6 +87,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="computer_club.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -89,11 +122,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738244901233</updated>
-      <workItem from="1738244902287" duration="817000" />
+      <workItem from="1738244902287" duration="8968000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1738245795810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738245795810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
